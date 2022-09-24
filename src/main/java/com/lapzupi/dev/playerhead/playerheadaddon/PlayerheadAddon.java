@@ -42,7 +42,7 @@ public final class PlayerheadAddon extends ItemAddon {
     @Contract(pure = true)
     @Override
     public @NotNull String getVersion() {
-        return "1.0.0";
+        return "1.0.1";
     }
 
     private ItemStack getFromPlayerHead(final String playerName) {
@@ -53,5 +53,10 @@ public final class PlayerheadAddon extends ItemAddon {
         skull.setString("Name", playerName);
 
         return nbti.getItem();
+    }
+
+    @Override
+    public String getUrl() {
+        return "https://github.com/Lapzupi/CM-Playerhead-Addon/releases";
     }
 }

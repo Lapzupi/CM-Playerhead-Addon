@@ -1,4 +1,0 @@
-name: Playerhead Addon
-version: '${project.version}'
-main: com.lapzupi.dev.playerhead.playerheadaddon.PlayerheadAddon
-api-version: 1.19
